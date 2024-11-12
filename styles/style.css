@@ -374,6 +374,11 @@ header.header-breadcrumb{
     height: 360px;
   }
 }
+
+
+
+/* breadcrumb */
+
 .breadcrumb{
   justify-content: center;
 }
