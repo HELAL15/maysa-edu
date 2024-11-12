@@ -369,6 +369,11 @@ header {
 header.header-breadcrumb{
   height: 500px;
 }
+@media(max-width:991px){
+  header.header-breadcrumb{
+    height: 360px;
+  }
+}
 .breadcrumb{
   justify-content: center;
 }
