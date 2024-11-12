@@ -785,7 +785,7 @@ z-index: 2;
   border: none;
   background: var(--white);
   box-shadow: 0px 13px 16px #D8D8D829;
-  padding: 2rem 2rem;
+  padding: 2rem 0;
   border-radius: 33px;
   -webkit-border-radius: 33px;
   -moz-border-radius: 33px;
@@ -794,41 +794,23 @@ z-index: 2;
 }
 
 .proccess .card .card-icon {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
   display: grid;
   place-items: center;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  margin: auto;
   position: absolute;
-  top: -5rem;
-  inset-inline-start: -3rem;
-  transform: translate(0 ,1rem);
-  -webkit-transform: translate(0 ,1rem);
-  -moz-transform: translate(0 ,1rem);
-  -ms-transform: translate(0 ,1rem);
-  -o-transform: translate(0 ,1rem);
+  top: -2rem;
+  inset-inline-start: 0rem;
 }
 
 @media(max-width:625px){
   .proccess .card-col {
     margin-top: 4rem;
   }
-  .proccess .card .card-icon {
-    
-    inset-inline-start: -1rem;
-   
-  }
+
 }
 
 .proccess .card .card-icon img{
@@ -837,8 +819,10 @@ z-index: 2;
   object-fit: contain;
 }
 
-
-
+.proccess .card .card-body{
+  padding-inline: 3rem;
+  padding-block: 1rem;
+}
 .proccess .card .card-body .title{
   font-weight: bold;
   color: var(--black);
